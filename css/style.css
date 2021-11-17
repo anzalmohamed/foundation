@@ -4,14 +4,16 @@
 }
 body {
   font-family: "Poppins", sans-serif;
+  background-color: black;
 }
 
 .wrapper {
   width: 1170px;
   margin: auto;
 }
+
 /* url(https://i.postimg.cc/YjcJg24M/aa.jpg); */
-header {
+/* header {
   background: linear-gradient(rgba(1, 52, 56, 0.473), rgba(14, 2, 41, 0.8)),
     url(../Assets/ngos.jpg);
   height: 100vh;
@@ -19,7 +21,7 @@ header {
   background-size: cover;
   background-position: center center;
   position: relative;
-}
+} */
 .nav-area {
   float: right;
   list-style: none;
