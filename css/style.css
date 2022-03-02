@@ -1,16 +1,19 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: "Poppins", sans-serif;
   background-color: black;
 }
 
-.wrapper {
-  width: 1170px;
-  margin: auto;
+.nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 12px;
 }
+
 
 /* url(https://i.postimg.cc/YjcJg24M/aa.jpg); */
 /* header {
@@ -23,9 +26,13 @@ body {
   position: relative;
 } */
 .nav-area {
-  float: right;
+  display: flex;  
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  width: 45%;
   list-style: none;
-  margin-top: 30px;
+
 }
 .nav-area li {
   display: inline-block;
@@ -49,18 +56,21 @@ body {
   width: 100%;
   padding: 15px 0;
 }
+
 .welcome-text {
+  width: 90%;
   position: absolute;
-  width: 600px;
-  height: 300px;
-  margin: 20% 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
+
 }
 .welcome-text h1 {
   text-align: center;
   color: #fff;
   text-transform: uppercase;
-  font-size: 60px;
+  font-size: 50px;
 }
 .welcome-text h1 span {
   color: #00fecb;
@@ -80,8 +90,34 @@ body {
   color: #333;
 }
 /*resposive*/
+@media (max-width: 1200px) {
 
-@media (max-width: 700px) {
+  .nav-area {
+    width: 57%;
+    justify-content: center;
+  }
+
+}
+@media (max-width: 900px) {
+
+  .nav{
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo img {
+    width: 130px;
+    height: 130px;
+    padding: 15px 0;
+  }
+  .nav-area {
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 600px) {
   .wrapper {
     width: 100%;
   }
@@ -108,7 +144,7 @@ body {
   .welcome-text {
     width: 100%;
     height: auto;
-    margin: 30% 0;
+
   }
   .welcome-text h1 {
     font-size: 30px;
@@ -116,4 +152,18 @@ body {
 }
 p {
   color: #fff;
+}
+
+
+@media only screen and (max-width: 599px) {
+  .nav-area{
+    display: none;
+  }
+
+  .welcome-text {
+    width: 100%;
+    height: auto;
+ 
+  
+  }
 }
