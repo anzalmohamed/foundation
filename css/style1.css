@@ -450,10 +450,11 @@ textarea {
 
 @media screen and (max-width: 880px) {
   .contact-box {
-    width: 80%;
+    width: 90%;
     margin-top: 400px;
     grid-template-columns: 1fr;
     gap: 295px;
+
   }
   .left {
     height: 200px;
@@ -466,6 +467,8 @@ textarea {
   background: linear-gradient(rgba(33, 52, 158, 0.8), rgba(241, 232, 232, 0.8));
 }
 
+
+/*
 footer{
   height: auto;
   width: 100vw;
@@ -473,6 +476,7 @@ footer{
   font-weight: 400;
   color: #000;
   background-color: #f4f4f4;
+
 }
 .footer-content{
   display: flex;
@@ -524,3 +528,10 @@ footer{
   word-spacing: 2px;
   text-transform: capitalize;
 }
+@media screen and (max-width: 880px) {
+  .footer{
+    margin-top: 500px;
+  }
+
+}
+*/
