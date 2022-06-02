@@ -7,8 +7,10 @@
 
 }
 body{
-    min-height: 200vh;
-    background: #000;
+    min-height: 150vh;
+    /* background: transparent */
+    background: url(../assets/afaddcb9d7dfaaf5bff7ef04101935814665ac16.webp);
+    background-size: cover ;
 }
 header{
     position: fixed;
