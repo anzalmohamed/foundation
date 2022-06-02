@@ -8,12 +8,14 @@
 body {
   position: relative;
   height: 100vh;
-  background: linear-gradient(rgba(33, 52, 158, 0.8), rgba(241, 232, 232, 0.8)) no-repeat center center fixed;
+  background: url(../Assets/wp3899855.webp);
+  background-size: cover ;
+ 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  
+   
 }
 
 
@@ -38,7 +40,7 @@ nav ul li {
   margin: 0 5px;
 }
 nav ul li a {
-  color: black;
+  color: rgb(255, 244, 244);
   font-size: 17px;
   padding: 7px 13px;
   border-radius: 3px;
@@ -46,7 +48,7 @@ nav ul li a {
 }
 a.active,
 a:hover {
-  background: #1b9bff;
+  background: #cef131;
   transition: 0.5s;
 }
 .checkbtn {
@@ -76,9 +78,9 @@ a:hover {
   }
   ul {
     position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: #2c3e50;
+    width: 30%;
+    height: 30vh;
+    background: transparent;
     top: 80px;
     left: -100%;
     text-align: center;
@@ -101,33 +103,6 @@ a:hover {
     left: 0;
   }
 }
-/* @keyframes example {
-      0% {
-        background-color: red;
-        left: 0px;
-        top: 0px;
-      }
-      25% {
-        background-color: yellow;
-        left: 200px;
-        top: 0px;
-      }
-      50% {
-        background-color: blue;
-        left: 200px;
-        top: 200px;
-      }
-      75% {
-        background-color: green;
-        left: 0px;
-        top: 200px;
-      }
-      100% {
-        background-color: red;
-        left: 0px;
-        top: 0px;
-      }
-    } */
 .swing {
   animation: swing ease-in-out 1s infinite alternate;
   transform-origin: center -20px;
@@ -190,63 +165,7 @@ a:hover {
   margin: 30px;
 }
 
-/* .card-image {
-      grid-area: image;
-      background: url("img1.jpg");
-      border-top-left-radius: 15px;
-      border-top-right-radius: 15px;
-      background-size: cover;
-    }
-    .card-text {
-      grid-area: text;
-      margin: 25px;
-    }
-    .card-text .date {
-      color: rgb(255, 7, 110);
-      font-size: 13px;
-    }
-    .card-text p {
-      color: grey;
-      font-size: 15px;
-      font-weight: 300;
-    }
-    .card-text h2 {
-      margin-top: 0px;
-      font-size: 28px;
-    }
-    .card-stats {
-      grid-area: stats;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: 1fr;
-      border-bottom-left-radius: 15px;
-      border-bottom-right-radius: 15px;
-      background: rgb(255, 7, 110);
-    }
-    .card-stats .stat {
-      padding: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      color: white;
-    }
-    .card-stats .border {
-      border-left: 1px solid rgb(172, 26, 87);
-      border-right: 1px solid rgb(172, 26, 87);
-    }
-    .card-stats .value {
-      font-size: 22px;
-      font-weight: 500;
-    }
-    .card-stats .value sup {
-      font-size: 12px;
-    }
-    .card-stats .type {
-      font-size: 11px;
-      font-weight: 300;
-      text-transform: uppercase;
-    } */
+
 #card:hover {
   transform: scale(1.15);
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
@@ -299,7 +218,7 @@ a:hover {
   font-size: 22px;
 }
 .mission-cards:hover{
-  box-shadow: 0 0 10px rgb(17, 17, 17);
+  box-shadow: 0 0 10px rgb(115, 189, 12);
 
 }
 
@@ -369,15 +288,15 @@ a:hover {
   z-index: -1;
 }
 .contact-box {
-  background: linear-gradient(rgba(33, 52, 158, 0.8), rgba(241, 232, 232, 0.8));
+  background: linear-gradient(rgba(15, 85, 31, 0.8), rgba(239, 241, 232, 0.8));
   max-width: 850px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #fff;
-  box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+
+  box-shadow: 0px 0px 19px 5px rgba(35, 10, 82, 0.19);
 }
 
 .left {
@@ -412,7 +331,7 @@ h2:after {
   width: 100%;
   border: 2px solid rgba(0, 0, 0, 0);
   outline: none;
-  background-color: rgba(230, 230, 230, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   padding: 0.5rem 1rem;
   font-size: 1.1rem;
   margin-bottom: 22px;
@@ -460,78 +379,24 @@ textarea {
     height: 200px;
   }
 }
-/* .box {
-    margin-bottom: 3cm;
-  } */
+
 .card {
-  background: linear-gradient(rgba(33, 52, 158, 0.8), rgba(241, 232, 232, 0.8));
+ 
+  background: transparent;
 }
 
-
-/*
-footer{
-  height: auto;
-  width: 100vw;
-  padding-top: 40px;
-  font-weight: 400;
-  color: #000;
-  background-color: #f4f4f4;
-
+p{
+  color: #fff;
 }
-.footer-content{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
+li{
+  color: #fff;
 }
-.footer-content h3{
-  font-size: 1.8rem;
-  font-weight: 400;
-  text-transform: capitalize;
-  line-height: 3rem;
+h1{
+  color: #fff;
 }
-
-.terms{
-  max-width: 500px;
-  margin: 10px auto;
-  line-height: 28px;
-  font-size: 14px;
+h2{
+  color: #fff;
 }
-
-.socials{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 1rem 0 3rem 0;
+h3{
+  color: #fff;
 }
-
-.socials li{
-  margin: 0 10px;
-}
-.socials a i{
-  font-size: 25px;
-  color: #000;
-  transition: color .4s ease;
-}
-.socials a:hover i{
-  color: var(--purple);
-}
-
-.footer-bottom{
-  width: 100vw;
-  padding: 20px 0;
-  text-align: center;
-}
-.footer-bottom p{
-  font-size: 14px;
-  word-spacing: 2px;
-  text-transform: capitalize;
-}
-@media screen and (max-width: 880px) {
-  .footer{
-    margin-top: 500px;
-  }
-
-}
-*/

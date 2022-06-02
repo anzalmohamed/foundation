@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -22,16 +24,6 @@ position: relative;
 }
 
 
-/* url(https://i.postimg.cc/YjcJg24M/aa.jpg); */
-/* header {
-  background: linear-gradient(rgba(1, 52, 56, 0.473), rgba(14, 2, 41, 0.8)),
-    url(../Assets/ngos.jpg);
-  height: 100vh;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: center center;
-  position: relative;
-} */
 .nav-area {
   display: flex;  
   align-items: center;
